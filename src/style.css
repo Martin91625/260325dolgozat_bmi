@@ -2,3 +2,12 @@ a {
     background-color: lightblue;
     border: 1px blue solid;
 }
+#warn {
+    border: 1px black solid;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+nav {
+    border: 1px blue solid;
+}
