@@ -1,3 +1,12 @@
+<!--
+ File: index.html
+ Author: El Miri Martin
+ Copyright: 2026, El Miri Martin
+ Group: Szoft I-N
+ Date: 2026.03.25
+ Github: https://github.com/Martin91625/
+ Licenc: MIT
+-->
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -9,6 +18,12 @@
 </head>
 <body>
   <div class="container">
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Főoldal</a>
+        <a class="navbar-brand" href="nevjegy.html">Névjegy</a>
+      </div>
+    </nav>
     <h1>Testtömegindex számoló</h1>
     <p>(A normális testtömegindex 18 és 24 közötti szám.)</p>
     <form id="bmiForm">
@@ -26,6 +41,7 @@
         <input type="text" id="result" class="form-control">
       </div>
     </form>
+    <p>Figyelem! Ez a számítás nem veszi figyelembe az eltérő testmagasságokat, ezért nem ad jó eredményt. Alacsonyabb embereknél soványságot, magasabb embereknél testsúlyfelesleget mutathat.</p>
   </div>
   <script src="bootstrap.js"></script>
   <script src="app.js" type="module"></script>  
